@@ -42,10 +42,10 @@ public class ApiController {
         return ResponseEntity.ok(emp);
     }
     
-    @DeleteMapping("/{id}")
-    public ResponseEntity<String> deleteEmp(@PathVariable int id){
-    	return ResponseEntity.ok("Deleted emp");
-    }
+//    @DeleteMapping("/{id}")
+//    public ResponseEntity<String> deleteEmp(@PathVariable int id){
+//    	return ResponseEntity.ok("Deleted emp");
+//    }
 
     
 }
