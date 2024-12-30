@@ -44,6 +44,7 @@ public class ApiController {
     
    @DeleteMapping("/{id}")
    public ResponseEntity<String> deleteEmp(@PathVariable int id){
+	   String s="demo";
    	return ResponseEntity.ok("Deleted emp");
    }
 
